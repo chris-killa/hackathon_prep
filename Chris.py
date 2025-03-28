@@ -4,7 +4,7 @@ def add_at_symbol_to_username(username):
     		Example: if the username is user123
     	         the function should return user123@email.com
     	 """
-    new_mail = username + "@email.com"
+    new_mail = username + "@"
     return new_mail
 
 
